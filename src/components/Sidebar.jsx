@@ -76,7 +76,7 @@ const Sidebar = () => {
 				<Image
 					alt={author}
 					fixed={avatar.childImageSharp.fixed}
-					imgStyle={{ borderRadius: '50%' }}
+					imgStyle={{ borderRadius: '20%' }}
 					css={{
 						marginBottom: rhythm(0.8),
 						opacity: 0.87,
