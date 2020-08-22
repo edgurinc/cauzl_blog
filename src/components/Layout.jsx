@@ -33,7 +33,7 @@ const Layout = ({ location, children }) => {
 					}}
 					to="/"
 				>
-					<FiTerminal css={{ marginRight: 8 }} /> Div’s Blog
+					<FiTerminal css={{ marginRight: 8 }} /> Cauzl Blog
 				</Link>
 			</h2>
 		);

@@ -1,17 +1,17 @@
 module.exports = {
 	siteMetadata: {
-		bio: 'Life, music, code and things in between…',
+		bio: 'Learn causal inference on cauzl.com',
 		title: `Divyanshu Maithani`,
-		author: `Divyanshu Maithani`,
+		author: `Cauzl Blog`,
 		description: `Personal blog of Divyanshu Maithani`,
 		siteUrl: `https://divyanshu013.dev`,
 		social: {
-			twitter: `https://twitter.com/divyanshu013`,
+			twitter: `https://twitter.com/_cauzl`,
 			github: 'https://github.com/divyanshu013',
 			youtube: 'https://youtube.com/WhatTheJavaScript',
 			music: 'https://soundcloud.com/summer-streets',
 			instagram: 'https://instagram.com/divyanshu013',
-			email: 'mailto:div.blackcat@gmail.com',
+			email: 'mailto:support@cauzl.com',
 			stackoverflow: 'https://stackoverflow.com/users/4952669/divyanshu-maithani',
 			newsletter: 'https://divyanshu.substack.com/',
 			goodreads: 'https://www.goodreads.com/user/show/62159316-divyanshu-maithani',
@@ -62,8 +62,8 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: `Div's Blog`,
-				short_name: `Div`,
+				name: `Cauzl Blog`,
+				short_name: `Cauzl`,
 				start_url: `/`,
 				background_color: `#121212`,
 				theme_color: `#1d1d1d`,
