@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import Image from 'gatsby-image';
 import { FiTwitter } from 'react-icons/fi';
-import { mediaMax } from '@divyanshu013/media';
+import { mediaMax, mediaMin } from '@divyanshu013/media';
 
 import Button from './Button';
 import { rhythm } from '../utils/typography';
@@ -81,7 +81,7 @@ const Sidebar = () => {
 				/>
 				<h3>{author}</h3>
 			</div>
-			<p className="muted" css={{ color: muted }}>
+			<p className="muted" css={{ color: muted, [mediaMin.large]: { maxWidth: '300px' } }}>
 				{bio}
 			</p>
 			<div
