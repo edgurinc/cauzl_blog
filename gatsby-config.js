@@ -1,6 +1,6 @@
 module.exports = {
 	siteMetadata: {
-		bio: 'Learn causal inference on cauzl.com',
+		bio: 'Learn causal inference on <a href="https://www.cauzl.com">cauzl.com</a>',
 		title: `Divyanshu Maithani`,
 		author: `Cauzl Blog`,
 		description: `Personal blog of Divyanshu Maithani`,
