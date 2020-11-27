@@ -22,9 +22,6 @@ const Bio = () => {
 					author
 					social {
 						twitter
-						github
-						youtube
-						newsletter
 					}
 				}
 			}
@@ -70,14 +67,13 @@ const Bio = () => {
 			/>
 			<div css={{ fontSize: 16, color: secondary }}>
 				<p>
-					Personal blog of <a href={social.twitter}>{author}</a>. I’m a{' '}
-					<a href={social.github}>JavaScript engineer</a> working with React, React Native, GraphQL
-					and Node. I also create <a href={social.youtube}>programming videos</a> with my friend. In
-					my spare time I play music and DoTA.
+					Personal blog of <a href={social.twitter}>{author}</a>. I’m a JavaScript engineer working
+					with React, React Native, GraphQL and Node. I also create programming videos with my
+					friend. In my spare time I play music and DoTA.
 				</p>
 				<p>
-					You may follow me on <a href={social.twitter}>twitter</a> or join my{' '}
-					<a href={social.newsletter}>newsletter</a> for latest updates.
+					You may follow me on <a href={social.twitter}>twitter</a> or join my newsletter for latest
+					updates.
 				</p>
 			</div>
 		</div>

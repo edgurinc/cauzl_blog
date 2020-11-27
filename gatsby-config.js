@@ -7,14 +7,6 @@ module.exports = {
 		siteUrl: `https://divyanshu013.dev`,
 		social: {
 			twitter: `https://twitter.com/_cauzl`,
-			github: 'https://github.com/divyanshu013',
-			youtube: 'https://youtube.com/WhatTheJavaScript',
-			music: 'https://soundcloud.com/summer-streets',
-			instagram: 'https://instagram.com/divyanshu013',
-			email: 'mailto:support@cauzl.com',
-			stackoverflow: 'https://stackoverflow.com/users/4952669/divyanshu-maithani',
-			newsletter: 'https://divyanshu.substack.com/',
-			goodreads: 'https://www.goodreads.com/user/show/62159316-divyanshu-maithani',
 		},
 	},
 	plugins: [
