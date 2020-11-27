@@ -35,7 +35,7 @@ const Sidebar = () => {
 	const { avatar } = data;
 	const { author, bio, social } = data.site.siteMetadata;
 	const { theme } = useContext(ThemeContext);
-	const { muted } = getTheme(theme);
+	const { muted, color: themeColor } = getTheme(theme);
 	const borderStartingColor = theme === 'light' ? 'hsla(0, 0%, 0%, 0.1)' : 'hsla(0, 0%, 100%, 0.1)';
 	return (
 		<nav
@@ -81,9 +81,27 @@ const Sidebar = () => {
 				/>
 				<h3>{author}</h3>
 			</div>
-			<p className="muted" css={{ color: muted, [mediaMin.large]: { maxWidth: '300px' } }}>
-				{bio}
-			</p>
+			<p
+				className="muted"
+				css={{
+					color: muted,
+					a: {
+						color: 'inherit',
+						textDecoration: 'none',
+						fontWeight: 600,
+						borderWidth: '0px',
+						borderBottomWidth: '2px',
+						borderStyle: 'dashed',
+						borderColor: 'transparent',
+						transition: 'border-color 200ms linear',
+						'&:hover': {
+							borderColor: themeColor,
+						},
+					},
+					[mediaMin.large]: { maxWidth: '300px' },
+				}}
+				dangerouslySetInnerHTML={{ __html: bio }}
+			/>
 			<div
 				css={{
 					display: 'grid',
