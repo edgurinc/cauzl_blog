@@ -1,10 +1,10 @@
 module.exports = {
 	siteMetadata: {
 		bio: 'Learn causal inference on cauzl.com',
-		title: `Divyanshu Maithani`,
+		title: `Official Cauzl Blog`,
 		author: `Cauzl Blog`,
-		description: `Personal blog of Divyanshu Maithani`,
-		siteUrl: `https://divyanshu013.dev`,
+		description: `Official Cauzl Blog`,
+		siteUrl: `https://blog.cauzl.com`,
 		social: {
 			twitter: `https://twitter.com/_cauzl`,
 			github: 'https://github.com/divyanshu013',
