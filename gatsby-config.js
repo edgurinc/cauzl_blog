@@ -13,7 +13,7 @@ module.exports = {
 			instagram: 'https://instagram.com/divyanshu013',
 			email: 'mailto:support@cauzl.com',
 			stackoverflow: 'https://stackoverflow.com/users/4952669/divyanshu-maithani',
-			newsletter: 'https://divyanshu.substack.com/',
+			newsletter: 'https://cauzl.substack.com/',
 			goodreads: 'https://www.goodreads.com/user/show/62159316-divyanshu-maithani',
 		},
 	},
