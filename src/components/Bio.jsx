@@ -67,13 +67,13 @@ const Bio = () => {
 			/>
 			<div css={{ fontSize: 16, color: secondary }}>
 				<p>
-					Personal blog of <a href={social.twitter}>{author}</a>. I’m a JavaScript engineer working
-					with React, React Native, GraphQL and Node. I also create programming videos with my
-					friend. In my spare time I play music and DoTA.
+					The official blog of <a href="https://www.cauzl.com"> Cauzl. </a>
+					Cauzl is a platform for learninng cauals inference, econometrics,
+					and statistics.
 				</p>
 				<p>
-					You may follow me on <a href={social.twitter}>twitter</a> or join my newsletter for latest
-					updates.
+					You may follow us on <a href={social.twitter}>twitter</a> or join our{' '}
+					<a href={social.newsletter}>newsletter</a> for latest updates.
 				</p>
 			</div>
 		</div>

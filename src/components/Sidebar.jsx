@@ -122,6 +122,18 @@ const Sidebar = () => {
 				>
 					<FiTwitter />
 				</Button>
+
+				<Button
+					title="Good old email"
+					aria-label="Email me"
+					as="a"
+					circular
+					href={social.email}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<FiMail />
+				</Button>
 			</div>
 		</nav>
 	);
