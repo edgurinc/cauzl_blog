@@ -22,9 +22,6 @@ const Bio = () => {
 					author
 					social {
 						twitter
-						github
-						youtube
-						newsletter
 					}
 				}
 			}
@@ -70,8 +67,8 @@ const Bio = () => {
 			/>
 			<div css={{ fontSize: 16, color: secondary }}>
 				<p>
-					The official blog of <a href="www.cauzl.com"> Cauzl. </a>
-					Cauzl is a platform for learninng cauals inference, econometrics, 
+					The official blog of <a href="https://www.cauzl.com"> Cauzl. </a>
+					Cauzl is a platform for learninng cauals inference, econometrics,
 					and statistics.
 				</p>
 				<p>

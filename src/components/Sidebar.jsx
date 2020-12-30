@@ -1,9 +1,8 @@
 import React, { useContext } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import Image from 'gatsby-image';
-import { FiTwitter, FiGithub, FiInstagram, FiYoutube, FiMail, FiMusic } from 'react-icons/fi';
-import { FaStackOverflow, FaGoodreadsG } from 'react-icons/fa';
-import { mediaMax } from '@divyanshu013/media';
+import { FiTwitter } from 'react-icons/fi';
+import { mediaMax, mediaMin } from '@divyanshu013/media';
 
 import Button from './Button';
 import { rhythm } from '../utils/typography';
@@ -25,13 +24,6 @@ const SIDEBAR_QUERY = graphql`
 				bio
 				social {
 					twitter
-					github
-					music
-					youtube
-					email
-					instagram
-					stackoverflow
-					goodreads
 				}
 			}
 		}
@@ -43,7 +35,7 @@ const Sidebar = () => {
 	const { avatar } = data;
 	const { author, bio, social } = data.site.siteMetadata;
 	const { theme } = useContext(ThemeContext);
-	const { muted } = getTheme(theme);
+	const { muted, color: themeColor } = getTheme(theme);
 	const borderStartingColor = theme === 'light' ? 'hsla(0, 0%, 0%, 0.1)' : 'hsla(0, 0%, 100%, 0.1)';
 	return (
 		<nav
@@ -89,9 +81,27 @@ const Sidebar = () => {
 				/>
 				<h3>{author}</h3>
 			</div>
-			<p className="muted" css={{ color: muted }}>
-				{bio}
-			</p>
+			<p
+				className="muted"
+				css={{
+					color: muted,
+					a: {
+						color: 'inherit',
+						textDecoration: 'none',
+						fontWeight: 600,
+						borderWidth: '0px',
+						borderBottomWidth: '2px',
+						borderStyle: 'dashed',
+						borderColor: 'transparent',
+						transition: 'border-color 200ms linear',
+						'&:hover': {
+							borderColor: themeColor,
+						},
+					},
+					[mediaMin.large]: { maxWidth: '300px' },
+				}}
+				dangerouslySetInnerHTML={{ __html: bio }}
+			/>
 			<div
 				css={{
 					display: 'grid',
@@ -112,7 +122,7 @@ const Sidebar = () => {
 				>
 					<FiTwitter />
 				</Button>
-				
+
 				<Button
 					title="Good old email"
 					aria-label="Email me"

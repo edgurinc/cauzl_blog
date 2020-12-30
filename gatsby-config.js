@@ -1,20 +1,14 @@
 module.exports = {
 	siteMetadata: {
-		bio: 'Learn causal inference on cauzl.com',
+		bio: 'Learn causal inference on <a href="https://www.cauzl.com">cauzl.com</a>',
 		title: `Official Cauzl Blog`,
 		author: `Cauzl Blog`,
 		description: `Official Cauzl Blog`,
 		siteUrl: `https://blog.cauzl.com`,
 		social: {
 			twitter: `https://twitter.com/_cauzl`,
-			github: 'https://github.com/divyanshu013',
-			youtube: 'https://youtube.com/WhatTheJavaScript',
-			music: 'https://soundcloud.com/summer-streets',
-			instagram: 'https://instagram.com/divyanshu013',
 			email: 'mailto:support@cauzl.com',
-			stackoverflow: 'https://stackoverflow.com/users/4952669/divyanshu-maithani',
 			newsletter: 'https://cauzl.substack.com/',
-			goodreads: 'https://www.goodreads.com/user/show/62159316-divyanshu-maithani',
 		},
 	},
 	plugins: [
