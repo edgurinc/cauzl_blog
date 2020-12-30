@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import Image from 'gatsby-image';
-import { FiTwitter } from 'react-icons/fi';
+import { FiTwitter,FiMail } from 'react-icons/fi';
 import { mediaMax, mediaMin } from '@divyanshu013/media';
 
 import Button from './Button';
