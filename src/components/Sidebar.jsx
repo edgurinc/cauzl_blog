@@ -112,72 +112,7 @@ const Sidebar = () => {
 				>
 					<FiTwitter />
 				</Button>
-				<Button
-					title="GitHub"
-					aria-label="Link to my GitHub"
-					as="a"
-					circular
-					href={social.github}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<FiGithub />
-				</Button>
-				<Button
-					title="Stackoverflow"
-					aria-label="Link to my Stackoverflow"
-					as="a"
-					circular
-					href={social.stackoverflow}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<FaStackOverflow />
-				</Button>
-				<Button
-					title="My coding YouTube channel"
-					aria-label="Link to my JavaScript YouTube channel"
-					as="a"
-					circular
-					href={social.youtube}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<FiYoutube />
-				</Button>
-				<Button
-					title="Instagram"
-					aria-label="Link to my Instagram"
-					as="a"
-					circular
-					href={social.instagram}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<FiInstagram />
-				</Button>
-				<Button
-					title="Some music I've covered"
-					aria-label="Link to my music"
-					as="a"
-					circular
-					href={social.music}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<FiMusic />
-				</Button>
-				<Button
-					title="What I'm reading these days"
-					aria-label="Link to my Goodreads"
-					as="a"
-					circular
-					href={social.goodreads}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<FaGoodreadsG />
-				</Button>
+				
 				<Button
 					title="Good old email"
 					aria-label="Email me"

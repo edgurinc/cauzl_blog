@@ -1,10 +1,10 @@
 module.exports = {
 	siteMetadata: {
 		bio: 'Learn causal inference on cauzl.com',
-		title: `Divyanshu Maithani`,
+		title: `Official Cauzl Blog`,
 		author: `Cauzl Blog`,
-		description: `Personal blog of Divyanshu Maithani`,
-		siteUrl: `https://divyanshu013.dev`,
+		description: `Official Cauzl Blog`,
+		siteUrl: `https://blog.cauzl.com`,
 		social: {
 			twitter: `https://twitter.com/_cauzl`,
 			github: 'https://github.com/divyanshu013',
@@ -13,7 +13,7 @@ module.exports = {
 			instagram: 'https://instagram.com/divyanshu013',
 			email: 'mailto:support@cauzl.com',
 			stackoverflow: 'https://stackoverflow.com/users/4952669/divyanshu-maithani',
-			newsletter: 'https://divyanshu.substack.com/',
+			newsletter: 'https://cauzl.substack.com/',
 			goodreads: 'https://www.goodreads.com/user/show/62159316-divyanshu-maithani',
 		},
 	},
