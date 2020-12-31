@@ -98,7 +98,7 @@ const Sidebar = () => {
 							borderColor: themeColor,
 						},
 					},
-					[mediaMin.large]: { maxWidth: '300px' },
+					[mediaMin.large]: { maxWidth: '200px' },
 				}}
 				dangerouslySetInnerHTML={{ __html: bio }}
 			/>
