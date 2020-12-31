@@ -1,9 +1,9 @@
 module.exports = {
 	siteMetadata: {
-		bio: 'Learn causal inference on <a href="https://www.cauzl.com">cauzl.com</a>',
-		title: `Official Cauzl Blog`,
+		bio: 'Official Cauzl blog. Cauzl is a platform for learning causal inference, econometrics, and statistics. Check our courses on <a href="https://www.cauzl.com">cauzl.com</a>',
+		title: `Cauzl Blog`,
 		author: `Cauzl Blog`,
-		description: `Official Cauzl Blog`,
+		description: `Cauzl Blog`,
 		siteUrl: `https://blog.cauzl.com`,
 		social: {
 			twitter: `https://twitter.com/_cauzl`,
