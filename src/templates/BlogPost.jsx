@@ -41,6 +41,7 @@ const BlogPost = ({ data, pageContext, location }) => {
 							<div
 								css={{
 									a: {
+										color: '#18BC74',
 										borderBottomColor: getTheme(theme).color,
 										'&:hover, &:focus': {
 											borderBottomStyle: 'solid',

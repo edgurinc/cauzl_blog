@@ -86,7 +86,7 @@ const Sidebar = () => {
 				css={{
 					color: muted,
 					a: {
-						color: 'inherit',
+						color: '#18BC74',
 						textDecoration: 'none',
 						fontWeight: 600,
 						borderWidth: '0px',

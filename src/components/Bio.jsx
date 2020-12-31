@@ -38,6 +38,7 @@ const Bio = () => {
 				gridTemplateColumns: 'auto auto',
 				alignItems: 'start',
 				a: {
+					color: '#18BC74',
 					borderBottomColor: color,
 					'&:hover, &:focus': {
 						borderBottomStyle: 'solid',
