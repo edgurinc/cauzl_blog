@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'gatsby';
 import { node, object } from 'prop-types';
 import { mediaMax } from '@divyanshu013/media';
-import { FiTerminal, FiSun, FiMoon } from 'react-icons/fi';
+import { FiSun, FiMoon, FiArrowLeft } from 'react-icons/fi';
 
 import ThemeContext from './ThemeContext';
 import Button from './Button';
@@ -33,7 +33,7 @@ const Layout = ({ location, children }) => {
 					}}
 					to="/"
 				>
-					<FiTerminal css={{ marginRight: 8 }} /> Cauzl Blog
+					<FiArrowLeft css={{ marginRight: 8 }} /> Cauzl Blog
 				</Link>
 			</h2>
 		);
