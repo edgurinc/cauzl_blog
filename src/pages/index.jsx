@@ -22,7 +22,7 @@ const BlogIndex = ({ data, location }) => {
 					alignContent: 'start',
 					height: '100%',
 					minHeight: '100vh',
-					maxWidth: 1200,
+					maxWidth: 1366,
 					margin: '0 auto',
 					[mediaMax.large]: {
 						gridTemplateColumns: 'auto',
