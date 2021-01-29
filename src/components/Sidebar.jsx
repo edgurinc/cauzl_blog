@@ -1,7 +1,8 @@
 import React, { useContext } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import Image from 'gatsby-image';
-import { FiTwitter,FiMail } from 'react-icons/fi';
+import { FiTwitter, FiMail } from 'react-icons/fi';
+import { FaRegNewspaper } from 'react-icons/fa';
 import { mediaMax, mediaMin } from '@divyanshu013/media';
 
 import Button from './Button';
@@ -24,6 +25,8 @@ const SIDEBAR_QUERY = graphql`
 				bio
 				social {
 					twitter
+					email
+					newsletter
 				}
 			}
 		}
@@ -113,7 +116,7 @@ const Sidebar = () => {
 			>
 				<Button
 					title="Twitter"
-					aria-label="Link to my Twitter"
+					aria-label="Link to our Twitter"
 					as="a"
 					circular
 					href={social.twitter}
@@ -133,6 +136,17 @@ const Sidebar = () => {
 					rel="noopener noreferrer"
 				>
 					<FiMail />
+				</Button>
+				<Button
+					title="Substack"
+					aria-label="Link to our Substack"
+					as="a"
+					circular
+					href={social.newsletter}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<FaRegNewspaper />
 				</Button>
 			</div>
 		</nav>
