@@ -6,6 +6,7 @@ categories: ['cauzl', 'first']
 ogImage: ./og-image.png
 author:
   avatar: './profile-pic.png'
+  name: 'Cauzl'
   bio: 'The official blog of <a href="https://www.cauzl.com"> Cauzl. </a> Cauzl is a platform for learninng cauals inference, econometrics, and statistics.'
   social: 'You may follow us on <a href={social.twitter}>twitter</a> or join our <a href={social.newsletter}>newsletter</a> for latest updates.'
 ---
