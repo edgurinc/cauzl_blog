@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import Image from 'gatsby-image';
+import { object, shape, string } from 'prop-types';
 
 import { mediaMax } from '@divyanshu013/media';
 import { rhythm } from '../utils/typography';
@@ -30,7 +31,7 @@ const Bio = ({ author }) => {
 		>
 			<Image
 				fixed={author.avatar.childImageSharp.fixed}
-				alt={author}
+				alt={author.name}
 				css={{
 					marginTop: 8,
 					marginRight: rhythm(1),
@@ -52,6 +53,19 @@ const Bio = ({ author }) => {
 			</div>
 		</div>
 	);
+};
+
+Bio.propTypes = {
+	name: string,
+	author: shape({
+		avatar: shape({
+			childImageSharp: shape({
+				fixed: object.isRequired,
+			}),
+		}),
+		bio: string,
+		social: string,
+	}),
 };
 
 export default Bio;
