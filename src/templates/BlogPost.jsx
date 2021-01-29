@@ -58,7 +58,7 @@ const BlogPost = ({ data, pageContext, location }) => {
 									marginBottom: rhythm(1),
 								}}
 							/>
-							<Bio />
+							<Bio author={post.frontmatter.author} />
 
 							<ul
 								style={{
@@ -126,6 +126,17 @@ export const pageQuery = graphql`
 							src
 						}
 					}
+				}
+				author {
+					bio
+					avatar {
+						childImageSharp {
+							fixed(height: 100, width: 100) {
+								...GatsbyImageSharpFixed
+							}
+						}
+					}
+					social
 				}
 			}
 			timeToRead
