@@ -7,10 +7,10 @@ ogImage: ./og-image.png
 author:
   avatar: './profile-pic.png'
   name: 'Cauzl'
-  bio: 'The official blog of <a href="https://www.cauzl.com"> Cauzl. </a> Cauzl is a platform for learninng cauals inference, econometrics, and statistics.'
-  social: 'You may follow us on <a href={social.twitter}>twitter</a> or join our <a href={social.newsletter}>newsletter</a> for latest updates.'
+  bio: ''
+  social: 'Check out <a href="https://www.cauzl.com"> Cauzl.com</a> to learn about cuasal inference, econometrics, and statistics. You can follow us on <a href="https://twitter.com/_cauzl">twitter</a> or join our <a href="https://cauzl.substack.com/">newsletter</a> for latest updates.'
 ---
 
-Welcome to the Cauzl blog. If you're here, you're likely to know about out platform [www.cauzl.com](https://cauzl.com). Cauzl is a platform for learning causal inference, econnometrics, and statistics.
+Welcome to the Cauzl blog. If you're here, you're likely to know about our platform [www.cauzl.com](https://cauzl.com). Cauzl is a platform for learning causal inference, econnometrics, and statistics.
 
 In this blog, we try to keep you updated about our newest courses, recent research in causal inference, and newest software packages. Stay tuned!
